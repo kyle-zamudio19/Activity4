@@ -1,5 +1,6 @@
 package com.example.activity4
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.activity4.databinding.ActivityMain3Binding
@@ -14,5 +15,10 @@ class MainActivity3 : AppCompatActivity() {
 
         val score = intent.getStringExtra("Score")
         binding.score0.text = getString(R.string._02, score)
+
+        binding.backToMainBtn.setOnClickListener {
+            val intent = Intent(this@MainActivity3, MainActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

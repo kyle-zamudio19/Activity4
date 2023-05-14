@@ -15,4 +15,6 @@
     <string name="what_are_you">What are you?</string>
     <string name="start">start</string>
     <string name="score">score</string>
+    <string name="instruction">Answer as quickly as possible, if timer reaches 0 it\'s GAME OVER.</string>
+    <string name="back_to_main">back to main</string>
 </resources>

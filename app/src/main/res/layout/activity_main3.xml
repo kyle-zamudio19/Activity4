@@ -7,6 +7,21 @@
     android:background="@drawable/app_background"
     tools:context=".MainActivity3">
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back_to_main_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="sans-serif-black"
+        android:padding="20dp"
+        android:text="@string/back_to_main"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/score0"
+        app:layout_constraintStart_toStartOf="@+id/score0"
+        app:layout_constraintTop_toBottomOf="@+id/score0" />
+
     <TextView
         android:id="@+id/score0"
         android:layout_width="wrap_content"
